@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Radimir Bitsov.
+    Date: 30.07.2012
+    Decription: Web Development Final Project
+                Telerik Academy 2012
+-->
+<html>
+    <head>
+        <!-- META -->
+        <meta name="robots" content="all" />
+        <meta name="description" content="Telerik Academy Web-Development Project" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <!-- TITLE -->
+        <title>Web Development | Telerik Academy Project</title>
+        <!-- CSS -->
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/mediaqueries.css" rel="stylesheet" />
+        <link href="css/slideviewer.css" rel="stylesheet" type="text/css" />
+        <link href="css/jquery-ui-1.8.22.custom.css" rel="stylesheet" type="text/css" />
+        <!-- JS -->
+        <script src="js/html5shiv.js" type="text/javascript"></script>
+        <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui-1.8.22.custom.min.js" type="text/javascript"></script>
+        <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+        <script src="js/jquery.slideviewer.1.2.js" type="text/javascript"></script> 
+        <script src="js/main.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+        <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]>
+          <style type="text/css">
+            .gradient {
+               filter: none;
+            }
+          </style>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- >> Header -->
+            <header id="site-header">
+                <div id="logo"></div>
+                <!-- >> Primary Navigation -->
+                <nav id="primary-nav">
+                    <ul>
+                        <li><a href="#" title="Information about us">about</a></li>
+                        <li><a href="#" title="Contact details">contact</a></li>
+                        <li><a href="#" title="Sitemap">sitemap</a></li>
+                        <li><a href="#" title="Testimonials">testimonials</a></li>
+                        <li><a href="#" title="How to find us">location</a></li>
+                        <li><a href="#" title="What we do">portfolio</a></li>
+                        <li><a href="#" title="Pricing information">pricing</a></li>
+                    </ul>
+                </nav>
+                <!-- Primary Navigation << -->
+            </header>
+            <!-- Header << -->
+            <!-- >> Containers -->
+            <div id="main-section"> 
+                <!-- >> Secondary Navigation -->
+                <nav id="secondary-nav">
+                    <ul>
+                        <li><a href="#" title="Information about us">about</a></li>
+                        <li><a href="#" title="Contact details">contact</a></li>
+                        <li><a href="#" title="Sitemap">sitemap</a></li>
+                        <li><a href="#" title="Testimonials">testimonials</a></li>
+                        <li><a href="#" title="How to find us">location</a></li>
+                        <li><a href="#" title="What we do">portfolio</a></li>
+                        <li><a href="#" title="Pricing information">pricing</a></li>
+                    </ul>
+                </nav>
+                <!-- Secondary Navigation << -->
+                <!-- >> Primary container -->
+                <section id="main-post" class="gradient">
+                    <!-- >> Image gallery -->
+                    <div id="post-rotator" class="svw">
+                        <ul>
+                            <li><img src="images/pic1.jpg" alt="space1" /></li>
+                            <li><img src="images/pic2.jpg" alt="space2" /></li>
+                            <li><img src="images/pic3.png" alt="space3" /></li>
+                            <li><img src="images/pic4.png" alt="space4" /></li>
+                            <li><img src="images/pic5.jpg" alt="space5" /></li>
+                        </ul>
+                    </div>
+                    <!-- Image gallery << -->
+                    <!-- >> Selected post -->
+                    <div id="selected-post">
+                        <h1>Design Elegance</h1>
+                        <span>Posted by Admin on Jan. 15th 2008</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat.
+                        </p>
+                        <button type="button">Continue Reading</button>
+                    </div>
+                    <!-- Image gallery << -->
+                    <!-- >> Ads section --> 
+                    <div id="ads">
+                        <img src="images/ads-portal.jpg" alt="ads-game" />
+                        <img src="images/ads-batman.jpeg" alt="ads-batman" />
+                    </div>
+                    <!-- Ads section << -->
+                </section>
+                <!-- Primary container << -->
+                <!-- >> Secondary container -->
+                <section id="main-content">
+                    <!-- >> Articles section -->
+                    <div id="articles-wrapper">
+                        <article class="article">
+                            <img src="images/50typerock.png" title="New web design tools" alt="design tools" />
+                            <h2>50 new web design tools</h2>
+                            <p>
+                                With web design encompassing all kinds of disciplines from code 
+                                editing to photo manipulation, building up a set of tools to cover 
+                                every eventuality can quickly become a very expensive exercise. 
+                                However, spending huge sums on big-name packages is not the only option:
+                                it is possible to pick up everything from image editors to integrated 
+                                development environments and entire content management systems.
+                            </p>
+                        </article>
+                        <article class="article">
+                            <img src="images/html5games.png" title="Beautiful HTML5 games" alt="html5 games" />
+                            <h2>Create beautiful HTML5 games</h2>
+                            <p>
+                                HTML5 is growing up faster than anyone could have imagined.
+                                Powerful and professional solutions are already being developed! 
+                                Today, we will make our first game using Construct 2. 
+                                As the creators say - "Making your own games has never been easier."
+                            </p>
+                        </article>
+                        <article class="article">
+                            <img src="images/webgl.png" title="WebGl Technics" alt="advanced webgl" />
+                            <h2>Advanced WebGl Technics</h2>
+                            <p>
+                                Right now virtually all the major browser manufacturers support 
+                                WebGL in their browser, although sometimes it needs to be enabled 
+                                manually. So that's Chrome, Firefox, Safari and Opera that will all 
+                                let you see the wonder of WebGL. Still no word on Internet Explorer yet, 
+                                although hope springs eternal!
+                            </p>
+                        </article>
+                    </div>
+                    <!-- Article section << -->
+                    <!-- >> Recent activity and information -->
+                    <aside id="lifestream" class="gradient">
+                        <div id="about-me">
+                            <h3>About Us</h3>
+                            <p>
+                                We have a core team with skills ranging from copywriting and editing 
+                                for clear language, to form design for print and screen, to structured 
+                                documents for parallel publishing. In addition we can call on experts 
+                                and consultants who provide support in specific areas such as database-driven 
+                                websites, and electronic forms.
+                                We have contacts in the industry with complementary skills enabling 
+                                us to further increase our resources on an as-needed basis.
+                            </p>
+                        </div>
+                        <div id="lifestream-menu">
+                            <ul>
+                                <li><a href="#comments" title="Recent comments">Comments</a></li>
+                                <li><a href="#popular" title="Best of the best comments">Popular</a></li>
+                                <li><a href="#random" title="Randomly selected comments">Random</a></li>
+                            </ul>
+                            <div id="comments">
+                                <ul>
+                                    <li>Tester from NYC, working for Telerik</li>
+                                    <li>System Administrator from Pittsburg, PA looking for job</li>
+                                    <li>Facebook has lost 7 billion dollars last month</li>
+                                    <li>How many system admins does it take to change a light bulb?</li>
+                                    <li>The Nintendo 3DS XL is now on sale in Europe and boy does Nintendo need it to sell well</li>
+                                </ul>
+                            </div>
+                            <div id="popular">
+                                <p>
+                                    Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+                                    risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris.
+                                    Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. 
+                                    Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. 
+                                    Vivamus sed magna quis ligula eleifend adipiscing. Duis orci.
+                                    Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. 
+                                    Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo.
+                                </p>
+                            </div>
+                            <div id="random">
+                                <p>
+                                    Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti.
+                                    Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, 
+                                    eu congue orci lorem eget lorem.
+                                    Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. 
+                                    Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo.
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- Recent activity and information << -->
+                </section>
+                <!-- Secondary container << -->
+            </div>
+            <!-- Containers << -->    
+            <!-- >> Footer -->
+            <footer id="site-footer">
+                <img src="images/pearl.png" alt="pearl" />
+                <span>Telerik Academy Web Design Course</span>
+            </footer>
+            <!-- Footer << -->
+        </div>
+    </body>
+</html>
+  

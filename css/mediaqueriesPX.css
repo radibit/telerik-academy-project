@@ -1,0 +1,116 @@
+﻿/** for 960px or less**/
+@media screen and (max-width: 960px) {
+    #wrapper {
+        width: 858px;
+    }
+    #site-header {
+        height: 137px;
+    }
+    #site-header #primary-nav {
+        margin: 15px 0 0 20px;
+    }
+    #main-section {
+        width: 670px;
+    }
+    #main-section #post-rotator {
+        margin: 0 15px 0 10px;
+        width: 645px !important; 
+    }
+    #selected-post {
+        margin-top: -10px;
+        width: 630px;
+    }
+    #ads {
+        margin-bottom: 10px;
+    }
+    #lifestream {
+        float: left;
+        margin-top: 0;
+    }
+    #site-footer {
+        width: 640px;
+    }
+    #site-footer img {
+        left: 320px;
+    }      
+}
+
+/** for 758px or less**/
+@media screen and (max-width: 758px) {
+    #wrapper {
+        width: 524px;
+         margin-left: 20px;
+    }
+    #site-header #logo, #site-header #primary-nav {
+        float: none;
+    }
+    #main-section {
+        width: 520px;
+        margin-top: 10px;
+    }
+    #main-section #post-rotator {
+        margin: 0 15px 0 10px;
+        width: 495px !important; 
+    }
+    #selected-post {
+        margin-top: -10px;
+        width: 490px;
+    }
+    #site-footer {
+        width: 490px;
+    }
+    #site-footer img {
+        left: 245px;
+    }
+}    
+/** for 524px or less**/
+@media screen and (max-width: 524px) {
+    #wrapper {
+        width: 292px;
+        margin-left: 50px;
+    }
+    #background-img {
+        display: none;
+    }
+    #main-section {
+        width: 285px;
+        margin-top: 90px;
+    }
+    #main-section #post-rotator {
+        margin: 0 15px 0 10px;
+        width: 260px !important; 
+    }
+    #selected-post {
+        margin-top: -10px;
+        width: 255px;
+    }
+    #articles-wrapper {
+        width: 295px;
+    }
+    .article h2 {
+        width: 200px;
+        margin: 20px 0 0 0;
+    }
+    .article p {
+        width: 235px;
+    }
+    #lifestream {
+        width: 285px;
+    }
+    #lifestream-menu {
+        margin: 30px 0 10px 0;
+    }
+    #lifestream-menu ul {
+        width: 285px;
+    }
+    #lifestream-menu ul li {
+        margin: 0;
+    }
+    #site-footer {
+        width: 255px;
+    }
+    #site-footer img {
+        left: 125px;
+    }
+}
+
